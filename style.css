@@ -20,14 +20,16 @@ html, body{
 }
 .attribution {
 	position: absolute;
-	bottom: 0;
-    right: 0;
+	bottom: .4rem;
+    right: .4rem;
 	backdrop-filter: blur(45px);
 	background-color: hsla(224, 80%, 8%, 0.884);
 	padding: .5rem;
 	font-size: .7rem;
 	color: hsl(0, 0%, 87%);
+	border-radius: .5rem;
 }
+
 .attribution a {
 	color: hsl(0, 100%, 67%);
 	text-decoration: none;

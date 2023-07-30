@@ -118,6 +118,7 @@ div.flex-container {
 	display: flex;
 	flex-direction: column;
 	margin: 0 0 1rem 0;
+	cursor: pointer;
 }
 
 div.flex-box {
@@ -177,6 +178,7 @@ div.flex-box > p.score-value {
 	color: hsl(0, 0%, 100%);
 	background-color: hsla(224, 30%, 27%);
 	transition: background .14s;
+	cursor: pointer;
 }
 
 .btn:hover {
